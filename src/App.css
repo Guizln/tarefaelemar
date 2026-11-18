@@ -240,6 +240,18 @@ button {
   color: #2563eb;
 }
 
+.navegacao-links .botao-login {
+  padding: 10px 15px;
+  border-radius: 7px;
+  background: #2563eb;
+  color: #fff;
+}
+
+.navegacao-links .botao-login:hover {
+  background: #1d4ed8;
+  color: #fff;
+}
+
 .inicio {
   min-height: calc(100vh - 68px);
   display: flex;

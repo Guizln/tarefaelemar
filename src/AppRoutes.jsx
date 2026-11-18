@@ -2,6 +2,8 @@ import { Link, Route, Routes } from 'react-router'
 import Inicio from './pages/Inicio'
 import ListaJogos from './pages/ListaJogos'
 import DetalheJogo from './pages/DetalheJogo'
+import Login from './pages/Login'
+import Registro from './pages/Registro'
 import './App.css'
 
 function App() {
@@ -14,11 +16,14 @@ function App() {
         <div className="navegacao-links">
           <Link to="/">Início</Link>
           <Link to="/registros">Jogos</Link>
+          <Link className="botao-login" to="/login">Entrar</Link>
         </div>
       </nav>
 
       <Routes>
         <Route path="/" element={<Inicio />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/registro" element={<Registro />} />
         <Route path="/registros" element={<ListaJogos />} />
         <Route path="/registros/:id" element={<DetalheJogo />} />
         <Route

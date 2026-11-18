@@ -48,6 +48,8 @@ npm run preview
 | Rota | Pagina | Funcionalidade |
 | --- | --- | --- |
 | `/` | Inicio | Apresenta a GameStore e direciona para a biblioteca. |
+| `/login` | Login | Acessa a conta; o botao Entrar fica disponivel no menu principal. |
+| `/registro` | Cadastro | Cria uma conta Supabase. |
 | `/registros` | Jogos | Consulta a tabela `games`; permite cadastrar, editar, excluir e abrir detalhes. |
 | `/registros/:id` | Detalhes | Busca um jogo pelo identificador da URL e mostra suas informacoes. |
 
